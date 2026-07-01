@@ -1,22 +1,16 @@
-# bd-desigualdade-no-transporte-sp
-
 ## 🚇 Desigualdade Social no Transporte Urbano
-Projeto de Banco de Dados desenvolvido em SQL com o objetivo de analisar como a desigualdade social influencia os deslocamentos urbanos na Região Metropolitana de São Paulo, utilizando dados da Pesquisa Origem e Destino (OD).
+Projeto de Banco de Dados desenvolvido em SQL com o objetivo de analisar como a desigualdade social influencia os deslocamentos urbanos na Região Metropolitana de São Paulo, utilizando dados da [Pesquisa Origem e Destino 2023 do Metro SP](https://www.metro.sp.gov.br/pt_BR/pesquisa-od/).
 
 ## 📖 Sobre o Projeto
-O acesso ao transporte é um dos principais fatores que impactam a qualidade de vida da população.
-Este projeto utiliza conceitos de modelagem de banco de dados para armazenar, organizar e analisar informações provenientes da Pesquisa Origem e Destino (OD), permitindo identificar padrões relacionados à mobilidade urbana, renda, tempo de deslocamento e características socioeconômicas da população.
-Além da implementação do banco de dados, o projeto demonstra como consultas SQL podem transformar dados em informações relevantes para apoiar estudos sobre mobilidade e desigualdade social.
+O acesso ao transporte é um dos principais fatores que impactam a qualidade de vida da população. Este projeto utiliza conceitos de modelagem de banco de dados, permitindo identificar padrões relacionados à mobilidade urbana, renda, tempo de deslocamento e características socioeconômicas da população. Além da implementação do banco de dados, o projeto demonstra como consultas SQL podem transformar dados em informações relevantes para apoiar estudos sobre mobilidade e desigualdade social.
 
 ## 🎯 Objetivos
+- Modelar um banco de dados.
 - Construir um banco de dados relacional.  
-- Modelar os dados da Pesquisa Origem-Destino (OD).  
-- Aplicar boas práticas de normalização.  
-- Desenvolver consultas SQL para análise dos dados.  
 - Produzir informações que auxiliem na compreensão da desigualdade social no transporte urbano.  
 
 ## 🗂 Base de Dados
-Os dados utilizados neste projeto são baseados na Pesquisa Origem e Destino (OD), realizada pelo Metrô de São Paulo.  
+Os dados utilizados neste projeto são baseados na [Pesquisa Origem e Destino 2023 do Metro SP](https://www.metro.sp.gov.br/pt_BR/pesquisa-od/).
 As informações contemplam, entre outros aspectos:  
 - Local de origem e destino das viagens;  
 - Tempo de deslocamento;  
@@ -27,22 +21,19 @@ As informações contemplam, entre outros aspectos:
 - Distrito e município.  
 
 ## 🏛 Modelagem do Banco
-O banco foi desenvolvido utilizando o modelo relacional.  
-Etapas do desenvolvimento  
-- Levantamento dos requisitos  
+O banco foi desenvolvido utilizando o modelo relacional. Etapas do desenvolvimento:  
+- Coleta de dados - [Pesquisa Origem e Destino 2023 do Metro SP](https://www.metro.sp.gov.br/pt_BR/pesquisa-od/). 
 - Modelo Conceitual  
 - Modelo Lógico  
 - Modelo Físico  
 - Criação das tabelas  
 - Inserção dos dados  
-- Consultas SQL  
-- Análises dos resultados  
+- Consultas SQL    
 
 ## 💻 Tecnologias Utilizadas  
 - SQL  
 - MySQL  
-- MySQL Workbench  
-- Git  
+- MySQL Workbench   
 - GitHub  
 
 ## 📊 Consultas Desenvolvidas
@@ -63,15 +54,14 @@ Com as consultas implementadas é possível:
 ## 🗺 Modelo Entidade-Relacionamento
 ![Modelo ER](Modelo-EntidadeRelacionamento.png)
  
-
 ## 👥 Equipe    
-- Ariany Bruna Gonçalves  
-- Luiz Felipe dos Santos  
-- Gabrielly Alves  
+- [Bariany](https://github.com/Bariany) 
+- [gaby001100](https://github.com/gaby001100)
+- [felipe](link).
 
 ## 📚 Referências
-- Pesquisa Origem e Destino (OD) — Metrô de São Paulo.  
-- Documentação oficial do MySQL.  
+- [Pesquisa Origem e Destino 2023 do Metro SP](https://www.metro.sp.gov.br/pt_BR/pesquisa-od/)
+- [Documentação oficial do MySQL Workbench](https://dev.mysql.com/doc/workbench/en/).  
 
 ## 📄 Licença  
 Este projeto foi desenvolvido para fins acadêmicos e educacionais.  
