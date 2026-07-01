@@ -7,7 +7,7 @@ nome_zona VARCHAR(100),
 domicilio_total INT,
 familia_total INT,
 populacao_total INT,
-empregos_inteiro INT,
+emprego_interno_total INT,
 automoveis_particulares INT,
 emprego_total INT
 );
