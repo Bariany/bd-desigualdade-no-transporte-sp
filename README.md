@@ -5,8 +5,28 @@ Este projeto propõe a criação e estruturação de um banco de dados relaciona
 ## Status do Projeto
 Em desenvolvimento. 
 
-## Dicionário de Dados
-(adicionar tabela com as descrições)
+## Documentação do Banco de Dados
+### Visão geral das entidades existentes
+| Tabela | Representa | Descrição |
+|---------|------------|-----------|
+| **zona** | Zonas de origem e destino | Zonas de origem e destino da pesquisa |
+| **viagem** | Viagens feitas por zona | Registros das viagens entre as zonas de origem e destino |
+| **renda** | Renda por zona | Informações de renda associadas às zonas |
+
+### Dicionário de Dados
+#### Tabela: `zona`
+| Atributo | Tipo | Descrição |
+|-----------|------|-----------|
+| **id_zona** | INT | Identificador único da zona |
+| **nome_zona** | VARCHAR | Nome da zona |
+| **domicilio_total** | INT | Quantidade de domicílios |
+| **familia_total** | INT | Quantidade de famílias |
+| **populacao_total** | INT | População estimada |
+| **empregos_internos** | INT | Empregos localizados na zona |
+| **automoveis_particulares** | INT | Frota em posse das famílias |
+| **emprego_total** | INT | Empregos totais localizados na zona |
+
+
 
 ## Tecnologias Utilizadas
 Armazenamento e Modelagem de Dados: 
