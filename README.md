@@ -21,17 +21,13 @@ Armazenamento e Modelagem de Dados:
  Controle de Versão:
  • GitHub — Repositório do projeto, versionamento dos scripts SQL e documentação.
 
+## Como Instalar e Rodar o Projeto
+Pré-requisitos: 
+Passo a passo de configuração:
 
+## Estrutura de Pastas do Repositório
+ Uma árvore simples mostrando onde estão os dados brutos, os scripts de ETL, as queries SQL e os relatórios/gráficos gerados.
 
-## Consultas Desenvolvidas
-
-
-## Resultados Esperados  
-C 
-
-## Modelo Entidade-Relacionamento
-![Modelo ER]()
- 
 ## Equipe    
 - [bariany](https://github.com/bariany) 
 - [gaby001100](https://github.com/gaby001100)
